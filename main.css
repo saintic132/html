@@ -7,14 +7,6 @@
     height: 100vh;
 }
 
-img {
-    flex: 0 1 250px;
-    max-width: 250px;
-    height: 200px;
-    padding-top: 5px;
-    padding-left: 5px;
-}
-
 .mainTitle {
     display: flex;
     justify-content: center;
@@ -24,6 +16,7 @@ img {
     width: 100px
 }
 
+/* С помощью Flex */
 .body_img_container {
     display: flex;
     justify-content: center;
@@ -37,4 +30,28 @@ img {
     flex-grow: 1;
     max-width: 1000px;
     width: 100%;
+}
+
+.body_img img {
+    flex: 0 1 250px;
+    max-width: 250px;
+    height: 200px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+/* Для Float */
+
+.image-container {
+    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 25%;
+    max-width: 250px;
+    height: 200px;
+    float: left;
+    padding: 0 0 5px 5px;
 }
