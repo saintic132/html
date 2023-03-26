@@ -2,28 +2,67 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 .body {
     width: 100vw;
     height: 100vh;
+    background-color: gray;
 }
 
-.mainTitle {
+.body_container {
+    height: 100%;
+    margin: 0 200px;
+    background-color: white;
+}
+
+.main_title {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.main_title h1 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
 }
 
 .body_hr {
-    width: 100px
+    width: 87px
+}
+
+.main_title_tags_container {
+    max-width: 513px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_title_tags {
+    max-width: 368px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* С помощью Flex */
 .body_img_container {
     display: flex;
     justify-content: center;
+    margin-top: 70px;
 }
 
 .body_img {
-    margin: 40px 200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -38,20 +77,4 @@
     height: 200px;
     padding-top: 5px;
     padding-left: 5px;
-}
-
-/* Для Float */
-
-.image-container {
-    width: 100%;
-    max-width: 1000px;
-    overflow: hidden;
-}
-
-.image-container img {
-    width: 25%;
-    max-width: 250px;
-    height: 200px;
-    float: left;
-    padding: 0 0 5px 5px;
 }
