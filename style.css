@@ -99,11 +99,11 @@ h1 {
     height: 320px;
 }
 
-.aside__div {
+.main__aside-content {
     padding: 10px 25px;
 }
 
-.aside__count-items {
+.main__aside-count-items {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -112,27 +112,27 @@ h1 {
     list-style-type: none;
 }
 
-.aside__count-item {
+.main__aside-count-item {
     flex: 1 0 50%;
 }
 
-.aside__button {
+.main__aside-button {
     padding: 8px 3px;
     border-radius: 58px;
 }
 
-.main__footer {
+.footer {
     margin-top: 30px;
 }
 
-.main__footer-div {
+.footer-content {
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.main__footer-link {
+.footer-link {
     width: 100%;
     display: flex;
     justify-content: space-between;
